@@ -1,5 +1,7 @@
 # Insertion Sort
-## [22, 27, 16, 2, 18, 6]
+Basit bir liste tanımlayarak başlayalım.
+
+s = [22, 27, 16, 2, 18, 6]
 1. Yukarıdaki dizinin sort türüne göre aşamalarını yazalım.
 	- [16, 22, 27, 2, 18, 6]
 	- [2, 16, 22, 27, 18, 6]
@@ -13,9 +15,10 @@
 	- Average case: O(n^2) = O(36)
 4. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer. Yazalım.
 	- Average case kapsamına girer. Çünkü sıralama ne ilk adımda ne de son adımda tamamlandı.
-## [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+s_new = [7, 3, 5, 8, 2, 9, 4, 15, 6]
    - Yukarıdaki dizi için step by step Insertion Sort işlem adımları şöyledir:
-		- [3, 7, 5, 8, 2, 9, 4, 15, 6]
-		- [3, 5, 7, 8, 2, 9, 4, 15, 6]
-		- [2, 3, 5, 7, 8, 9, 4, 15, 6]
-		- [2, 3, 4, 5, 7, 8, 9, 15, 6]
+   - [3, 7, 5, 8, 2, 9, 4, 15, 6]
+   - [3, 5, 7, 8, 2, 9, 4, 15, 6]
+   - [2, 3, 5, 7, 8, 9, 4, 15, 6]
+   - [2, 3, 4, 5, 7, 8, 9, 15, 6]
