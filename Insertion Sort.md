@@ -3,7 +3,7 @@
 Basit bir liste tanımlayarak başlayalım.
 Aşağıdaki gibi bir listemiz olsun:
 
-[22, 27, 16, 2, 18, 6]
+22, 27, 16, 2, 18, 6
 
     - Yukarıdaki dizinin sort türüne göre aşamalarını yazalım.
     - [16, 22, 27, 2, 18, 6]
@@ -25,9 +25,9 @@ Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer. Yazalım.
 
     - Average case kapsamına girer. Çünkü sıralama ne ilk adımda ne de son adımda tamamlandı.
 
-Bir başka liste
+Bir başka liste:
 
-[7, 3, 5, 8, 2, 9, 4, 15, 6]
+7, 3, 5, 8, 2, 9, 4, 15, 6
 
     - Yukarıdaki dizi için step by step Insertion Sort işlem adımları şöyledir:
     - [3, 7, 5, 8, 2, 9, 4, 15, 6]
