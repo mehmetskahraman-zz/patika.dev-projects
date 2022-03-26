@@ -3,8 +3,8 @@
 	- Yukarıdaki dizinin sort türüne göre aşamalarını yazalım.
 		- [16, 22, 27, 2, 18, 6]
   		- [2, 16, 22, 27, 18, 6]
-   	- [2, 16, 18, 22, 27, 6]
-      - [2, 6, 16, 18, 22, 27]
+   		- [2, 16, 18, 22, 27, 6]
+      	- [2, 6, 16, 18, 22, 27]
 2. Big-O notation gösterimini yapalım.
 	- O(n^2)
 3. Time Complexity değerini bulalım.
