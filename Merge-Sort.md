@@ -10,6 +10,6 @@
     - 4th STEP: [11, 16, 21] ----- [8, 12, 22]
     - 5th STEP: [8, 11, 12, 16, 21, 22]
 
-## Big O Notation:
+## Big O Notation
 
 O(nlogn)
