@@ -1,4 +1,4 @@
-# Merge Sort
+# MergeSort
 
 --> Böl ve Yönet Algoritmasının uygulanma adımları:
 
