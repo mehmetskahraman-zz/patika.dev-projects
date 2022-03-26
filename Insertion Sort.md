@@ -3,13 +3,13 @@
 
 1. Yukarıdaki dizinin sort türüne göre aşamalarını yazalım.
    - 1st STEP:
-[16, 22, 27, 2, 18, 6]
+     - [16, 22, 27, 2, 18, 6]
    - 2nd STEP:
-[2, 16, 22, 27, 18, 6]
+     - [2, 16, 22, 27, 18, 6]
    - 3rd STEP:
-[2, 16, 18, 22, 27, 6]
+     - [2, 16, 18, 22, 27, 6]
    - 4th STEP:
-[2, 6, 16, 18, 22, 27]
+     - [2, 6, 16, 18, 22, 27]
 
 2. Big-O notation gösterimini yapalım.
    - O(n^2)
