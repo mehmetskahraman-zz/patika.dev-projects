@@ -1,4 +1,4 @@
-# InsertionSort
+# Insertion Sort Algorithm
 
 Basit bir liste tanımlayarak başlayalım.
 Aşağıdaki gibi bir listemiz olsun:
