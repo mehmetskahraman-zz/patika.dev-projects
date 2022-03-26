@@ -7,13 +7,13 @@
       - [2, 6, 16, 18, 22, 27]
 2. Big-O notation gösterimini yapalım.
 	- O(n^2)
-4. Time Complexity değerini bulalım.
+3. Time Complexity değerini bulalım.
 	- Best case: O(n) = O(36)
 	- Worst case: O(n^2) = O(36)
 	- Average case: O(n^2) = O(36)
-5. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer. Yazalım.
+4. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer. Yazalım.
 	- Average case kapsamına girer. Çünkü sıralama ne ilk adımda ne de son adımda tamamlandı.
-7. [7, 3, 5, 8, 2, 9, 4, 15, 6]
+5. [7, 3, 5, 8, 2, 9, 4, 15, 6]
 	- Yukarıdaki dizi için step by step Insertion Sort işlem adımları şöyledir:
 		- [3, 7, 5, 8, 2, 9, 4, 15, 6]
 		- [3, 5, 7, 8, 2, 9, 4, 15, 6]
