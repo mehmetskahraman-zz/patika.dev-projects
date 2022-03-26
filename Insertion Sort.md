@@ -18,9 +18,8 @@
 4. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer. Yazalım.
    - Average case kapsamına girer. Çünkü sıralama ne ilk adımda ne de son adımda tamamlandı.
 
-[7, 3, 5, 8, 2, 9, 4, 15, 6] dizisinin Insertion Sort'a göre ilk 4 adımı şöyledir:
-
-- 1st STEP: [3, 7, 5, 8, 2, 9, 4, 15, 6]
-- 2nd STEP: [3, 5, 7, 8, 2, 9, 4, 15, 6]
-- 3rd STEP: [2, 3, 5, 7, 8, 9, 4, 15, 6]
-- 4th STEP: [2, 3, 4, 5, 7, 8, 9, 15, 6]
+5. [7, 3, 5, 8, 2, 9, 4, 15, 6] dizisinin Insertion Sort'a göre ilk 4 adımı şöyledir:
+   - 1st STEP: [3, 7, 5, 8, 2, 9, 4, 15, 6]
+   - 2nd STEP: [3, 5, 7, 8, 2, 9, 4, 15, 6]
+   - 3rd STEP: [2, 3, 5, 7, 8, 9, 4, 15, 6]
+   - 4th STEP: [2, 3, 4, 5, 7, 8, 9, 15, 6]
