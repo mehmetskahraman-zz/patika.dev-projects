@@ -110,3 +110,38 @@ insert into employee (id, name, birthday, email) values (98, 'Dylan Antonin', '0
 insert into employee (id, name, birthday, email) values (99, 'Ephraim January 1st', '01.01.1930', 'ejanuary2q@prlog.org');
 insert into employee (id, name, birthday, email) values (100, 'Park Panks', '18.01.2018', 'ppanks2r@webeden.co.uk');
 
+UPDATE employee
+SET name = 'Franz Ferdinand',
+birthday = '1987-02-01',
+email = 'OttoMeier@gmail.com'
+WHERE id = 3;
+
+UPDATE employee
+SET name = 'Phil Collins',
+birthday = '1951-01-30',
+email = 'philcollinsD@gmail.com'
+WHERE id = 5;
+
+UPDATE employee
+SET name = 'Rasputin',
+birthday = '1983-08-01',
+email = 'rasputin1@gmail.com'
+WHERE id = 7;
+
+UPDATE employee
+SET name = 'Muhammed Ali',
+birthday = '1942-01-30',
+email = 'm-ali@gmail.com'
+WHERE id = 13;
+
+UPDATE employee
+SET name = 'Syd',
+birthday = '1987-02-01',
+email = 'syd@gmail.com'
+WHERE id = 21;
+
+
+
+DELETE FROM employee
+WHERE id IN (3,5,7,13,21)
+RETURNING *;
