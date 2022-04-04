@@ -7,7 +7,7 @@ create table employee (
 	email VARCHAR(50)
 );
 
---Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+--Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 100 adet veri ekleyelim.
 
 insert into employee (id, name, birthday, email) values (1, null, '25.09.1954', 'vabbett0@nasa.gov');
 insert into employee (id, name, birthday, email) values (2, 'Jillian Harrinson', null, 'jharrinson1@ft.com');
@@ -110,7 +110,7 @@ insert into employee (id, name, birthday, email) values (98, 'Dylan Antonin', '0
 insert into employee (id, name, birthday, email) values (99, 'Ephraim January 1st', '01.01.1930', 'ejanuary2q@prlog.org');
 insert into employee (id, name, birthday, email) values (100, 'Park Panks', '18.01.2018', 'ppanks2r@webeden.co.uk');
 
---
+--Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
 UPDATE employee
 SET name = 'Franz Ferdinand',
 birthday = '1987-02-01',
@@ -141,7 +141,7 @@ birthday = '1987-02-01',
 email = 'syd@gmail.com'
 WHERE id = 41;
 
---
+--Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
 DELETE FROM employee
 WHERE id IN (5,15,25,35,41)
 RETURNING *;
