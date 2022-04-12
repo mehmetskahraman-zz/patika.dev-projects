@@ -2,7 +2,7 @@ list_of_lists = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
 flat_list = list()
 def flatten_list(list_of_lists):
     for item in list_of_lists:
-        if type(item) == list:
+        if type(item) is list:
             flatten_list(item)
         else:
             flat_list.append(item)
