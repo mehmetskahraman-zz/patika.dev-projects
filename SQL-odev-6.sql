@@ -1,7 +1,7 @@
 
 -- film tablosunda bulunan rental_rate sütunundaki değerlerin ortalaması nedir?
 SELECT ROUND(AVG(rental_rate), 2)
-FROM film;*/
+FROM film;
 
 -- film tablosunda bulunan filmlerden kaç tanesi 'C' karakteri ile başlar?
 SELECT COUNT(title)
