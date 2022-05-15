@@ -19,6 +19,6 @@ SELECT * FROM film WHERE rental_rate = 0.99 AND replacement_cost = 12.99 OR repl
 SELECT first_name, last_name FROM customer WHERE first_name = 'Mary';
 
 -- 5. 
--- film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız.
+-- film tablosundaki uzunluğu(length) 50'den büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız.
 SELECT film.title, film.length, film.rental_rate FROM film
 WHERE NOT length > 50 AND (rental_rate != '2.99' OR rental_rate != '4.99');
